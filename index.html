@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emirhan Erdem | Portföy</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Emirhan Erdem</h1>
+      <p>Data Analyst | Python Developer</p>
+      <nav>
+        <a href="#about">Hakkımda</a>
+        <a href="#projects">Projeler</a>
+        <a href="#certificates">Sertifikalar</a>
+        <a href="#skills">Beceriler</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>Hakkımda</h2>
+    <p>Dokuz Eylül Üniversitesi Yönetim Bilişim Sistemleri mezunuyum. Python, SQL kullanarak veriyi manipüle etme ve görselleştirme gibi konularda projeler geliştiriyorum. Veri analiziyle başladığım kariyer yolculuğumda zamanla veri bilimi, yapay zeka ve yazılım geliştirme alanlarında da projeler geliştirmek istiyorum.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projeler</h2>
+    <div class="card">
+      <h3>Proje başlığı burada yer alacak</h3>
+      <p>Proje açıklamasının yer alacağı bölüm.</p>
+      <button class="btn show-project" data-images="img/123.png,img/project-2-2.png">
+        Projeyi Gör
+      </button>
+    </div>
+  </section>
+
+  <section id="certificates" class="section">
+    <h2>Sertifikalar</h2>
+    <div class="card">
+      <h3>HTML5 ile Web Geliştirme</h3>
+      <p>Veri analizi süreçlerine giriş ve uygulama becerilerini içeren sertifika.</p>
+      <a href="files/HTML5.pdf" download class="btn">PDF</a>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Beceriler</h2>
+    <ul>
+      <li>Python (Pandas, Matplotlib, NumPy)</li>
+      <li>SQL</li>
+      <li>Power BI / Tableau</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Coğrafi Bilgi Sistemleri</li>
+      <li>Karar Destek Sistemleri</li>
+      <li>MS Office Programları</li>
+      <li>GIT</li>
+      <li>Matematik / İstatistik</li>
+      <li>Android Studio / Java</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>İletişim</h2>
+    <p>Bana ulaşmak için:</p>
+    <ul>
+      <li>📧 <a href="mailto:e_erdem@outlook.com.tr ">e_erdem@outlook.com.tr</a></li>
+      <li>🌐 <a href="https://github.com/emirhanerdemm" target="_blank">GitHub</a></li>
+      <li>💼 <a href="https://www.linkedin.com/in/emirhan-erdem-593434195/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>“İnsan, üretmek için var olan tek varlıktır.” – Jean-Paul Sartre</p>
+  </footer>
+
+
+  <div id="projectModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <button class="prev">&#10094;</button>
+      <img id="modalImage" src="" alt="Proje görseli">
+      <button class="next">&#10095;</button>
+    </div>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
